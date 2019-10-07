@@ -16,7 +16,7 @@
 			
 
 
-            
+
 	</main>
 	<footer>
 		<i class="fab fa-linkedin-in">Linkedin</i> <!--FontAwesome a integrer --> 

@@ -2,9 +2,14 @@ body {
     color:black;
     background-color:white;
     background-image:url(img/image_de_fond.jpg);
+    font-family: 'Montserrat', sans-serif;
     }
 
+@font-face{
+    font-family: 'Big Shoulders Display', cursive;
+    src:url('font/BigShouldersDisplay-Regular.ttf')
 
+}
 #photo img
 {
 	width: 250px; 
