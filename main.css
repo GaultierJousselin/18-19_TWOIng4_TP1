@@ -2,6 +2,7 @@ body {
     color:black;
     background-color:white;
     font-family: 'Montserrat', sans-serif;
+    height: 100%;
     }
 @font-face{
   font-family: 'Montserrat Bold', arial;
@@ -12,6 +13,7 @@ body {
 #nav-left {
     border: thick black solid ;
     background-color: black;
+    height: 100%;
     width: 30%;
     float: left;
     color: white;
@@ -23,9 +25,9 @@ body {
 }
 
 #content {
-    border: thick black solid ;
     width: 68%;
     float: right;
+    font-family: "Montserrat";
 }
 
 #photo img {
@@ -50,10 +52,6 @@ body {
   font-size: small;
 }
 
-#profil {
-  /*text-decoration: underline;*/
-}
-
 .trait {
   margin-left: 35%;
   width: 30%;
@@ -61,17 +59,18 @@ body {
   border-top: 2px white solid ;
 }
 .traitl {
-  margin-left: 5%;
-  width: 80%;
-  padding: 5%;
+  width: 95%;
   border-top: 2px black solid ;
 }
 
 .pbar {
-  margin-left: 15%;
+  margin-left: 20%;
   border: 2px white solid;
-  margin-right: 15%;
+  margin-right: 20%;
 }
 .pbar2 {
   border: 2px white solid;
+}
+#Etudes {
+  margin-left: 5%;
 }
