@@ -10,6 +10,51 @@ body {
 
 }
 
+
+.navtop {
+  display: inline;
+
+}
+
+a {
+  text-decoration:none;
+  color:#FFF;
+}
+.rainbow-button {
+  width:calc(10vw + 6px);
+  height:calc(4vw + 6px);
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  border-radius:5px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-transform:uppercase;
+  font-size:small;
+  font-weight:bold;
+  display: inline-block;
+}
+.rainbow-button:after {
+  content:attr(alt);
+  width:10vw;
+  height:4vw;
+  background-color: black;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-left: 2.5px;
+  margin-top: 2.5px;
+  color: white;
+}
+.rainbow-button:hover {
+  animation:slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+
 #nav-left {
   margin-left: 10%;
     border: thick black solid ;
@@ -41,9 +86,16 @@ body {
 
 }
 
-#photo{
-  /*transform: rotate(90deg); 
-*/}
+#photo2 img {
+  width: 60%;
+  height: 60%;
+  transform: rotate(90deg); 
+  position: relative;
+  margin-top: 15%;
+  display: inline-block;
+  float: left;
+  width: 45%;
+}
 
 .Name {
   font-size: X-large;
@@ -75,4 +127,27 @@ body {
 }
 #Etudes {
   margin-left: 5%;
+}
+
+.logo-site {
+    
+}
+
+#formulaire {
+  margin-left: 5%;
+}
+
+#field {
+  margin-left: 2%;
+  width: 60%;
+}
+#button {
+  float: right;
+  margin-top: -120px;
+  margin-right: 180px;
+  widows: 30%;;
+}
+
+#legendaire {
+  margin-left: 40%;
 }

@@ -4,10 +4,11 @@
 	<meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<title>Main Page : CV Gaultier Jousselin</title>
+    <title>Main Page : CV Gaultier Jousselin</title>   
+    <script src="script.js"></script>
 </head>
 <body>
-	<main>
+	<main class="main">
         <section id = nav-left>
             <article id = nav-left-top>
                 <div id="photo" align="center">
@@ -15,13 +16,12 @@
                 </div><br><br><br>
                 <p class= "Name"> Gaultier </p><p class = "Name"> Jousselin </p>
                 <p class = "date"> 21 ans </p>
-                <br><br><br>
-                <div id="photo" align="center">
-                    <img style= "width : 10%" src="img/git.png">
+                <br>
+                <div class="photo2">
+                    <a href="https://github.com/GaultierJousselin"><img style= "width : 10%" src="img/git.png"></a>
+                    <a href="https://www.linkedin.com/in/gaultier-j-110382104/"><img style= "width : 10%" src="img/link.png"></a>
                 </div>
-                <div id="photo" align="center">
-                    <img style= "width : 10%" src="img/link.png">
-                </div>
+                <br>
             </article>
             <article id = nav-left-bottom>
                 <br><br><br><br>
@@ -65,7 +65,11 @@
                     </div><br><br><br>
                 </article>
             </article>
-
+            <article>
+                <video src="videaudio/vdo.mp4" controls id="vdo">
+                    Votre navigateur ne gère pas l'élément <code>video</code>.
+                </video>
+            </article>
         </section>
 
 
@@ -73,6 +77,13 @@
 
 
         <section id = content>
+                <header>
+                        <nav style= "margin-left: 15%" class="navtop">
+                            <a href="main.html" class="rainbow-button" alt="Back to the Top"></a>
+                            <a href="#vdo" class="rainbow-button" alt="Vidéo"></a>
+                            <a href="#formulaire" class="rainbow-button" alt="Contact"></a>
+                        </nav>
+                    </header>
             <article id = Etudes>
                 <article>
                     <h1> Etudes</h1>
@@ -111,6 +122,20 @@
                     <p> Montage : Depuis quelques années j’ai eu l’opportunité de monter quelques pc fixes. Cela m’a appris l’ingeniosité, m’a donné le goût pour l’innovation et le travail abouti.</p>
                 </article>
             </article>
+            <legend id="legendaire">Contactez moi !!</legend>
+            <form id="formulaire">
+                <div id="field">
+                    Votre Nom:<br>
+                    <input id="lastname" type="text" name="LastName" placeholder="Macron"><br>
+                    Votre Email :<br>
+                    <input id="email" type="text" name="lastname" placeholder="manu.mama@gmail.com"><br>
+                    Votre message :<br>
+                    <textarea id="FText" type="text" name="lastname" placeholder="Veuillez écrire ici .................................." row="5" cols="33"></textarea><br>
+                </div>
+                <div id="button">
+                    <input id="fsub" type="submit" value="Submit">
+                </div>
+            </form>
         </section>
 
 
