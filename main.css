@@ -92,7 +92,6 @@ a {
   transform: rotate(90deg); 
   position: relative;
   margin-top: 15%;
-  display: inline-block;
   float: left;
   width: 45%;
 }
@@ -127,10 +126,6 @@ a {
 }
 #Etudes {
   margin-left: 5%;
-}
-
-.logo-site {
-    
 }
 
 #formulaire {
